@@ -40,6 +40,7 @@ class RegistroRequest extends FormRequest
             "name"=>"EL nombre es obligatorio",
             "email.required"=>"El email es obligatorio",
             "email.email"=>"El email no es valido",
+            "email.unique"=>"El email ya esta registrado",
             "password"=>"El password debe contener al menos 8 caracteres, un símbolo y un numero"
         ];
     }
